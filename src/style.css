@@ -1,17 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
-body {
+
+html, body {
     font-family: "Roboto", serif;
     font-optical-sizing: auto;
     font-style: normal;
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    color: #333;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+main {
+    flex: 1;
+    margin: 15px;    
 }
 
 header {
-    background-color: #0077cc;
+    background-color: #503c22;
     padding: 1em 0;
     color: white;
     text-align: center;
@@ -40,10 +48,14 @@ nav ul.menu li a:hover {
 }
 
 .hero {
-    background: url('../images/hero.jpg') no-repeat center center/cover;
-    padding: 3em;
-    text-align: center;
-    color: white;
+    background: url(/img/petbanner.png) center;
+    background-repeat: no-repeat;
+    padding: 70px;
+    background-color: #ffbd59;
+    margin: -20px;
+    margin-bottom: 20px;
+    box-shadow: 0px 3px 11px 0px rgba(0,0,0,0.75);
+    height: 150px;
 }
 
 .sobre {
@@ -80,7 +92,7 @@ table th, table td {
 }
 
 table th {
-    background-color: #0077cc;
+    background-color: #2a2115;
     color: white;
 }
 
@@ -103,7 +115,7 @@ form input, form textarea, form button {
 }
 
 form button {
-    background-color: #0077cc;
+    background-color: #fda26b;
     color: white;
     border: none;
     cursor: pointer;
@@ -111,13 +123,16 @@ form button {
 }
 
 form button:hover {
-    background-color: #005fa3;
+    background-color: #dc7b3f;
 }
 
 footer {
+    flex-shrink: 0;
+    width: 100%;
+    background-color: #ffbd59;
+    color: #000;
     text-align: center;
     padding: 1em 0;
-    background-color: #333;
-    color: white;
-    margin-top: 2em;
+    bottom: 0;
 }
+
