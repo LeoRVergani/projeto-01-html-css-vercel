@@ -1,4 +1,3 @@
-```
 # Projeto de Petshop em HTML e CSS
 
 Este projeto é um site para um petshop, desenvolvido utilizando HTML e CSS. O objetivo é criar uma plataforma atraente e funcional para apresentar os serviços e produtos oferecidos, além de proporcionar uma experiência agradável aos visitantes.
@@ -47,4 +46,3 @@ Para mais informações, entre em contato:
 ---
 
 Agradecemos por visitar nosso projeto! Esperamos que você goste do nosso site de petshop!
-```
