@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color: #0077cc;
+    padding: 1em 0;
+    color: white;
+    text-align: center;
+}
+
+nav ul.menu {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul.menu li {
+    margin: 0 1em;
+}
+
+nav ul.menu li a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s;
+}
+
+nav ul.menu li a:hover {
+    color: #ffcc00;
+}
+
+.hero {
+    background: url('../images/hero.jpg') no-repeat center center/cover;
+    padding: 3em;
+    text-align: center;
+    color: white;
+}
+
+.sobre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+    background-color: #f9f9f9;
+}
+
+.sobre img {
+    max-width: 100%;
+    height: auto;
+    border: 5px solid #ddd;
+    border-radius: 10px;
+    margin: 1em 0;
+}
+
+.tabela {
+    padding: 2em;
+    background-color: #eef;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1em 0;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 0.5em;
+    text-align: left;
+}
+
+table th {
+    background-color: #0077cc;
+    color: white;
+}
+
+.formulario {
+    padding: 2em;
+    background-color: #f0f0f0;
+}
+
+form label {
+    display: block;
+    margin: 0.5em 0 0.2em;
+}
+
+form input, form textarea, form button {
+    width: 100%;
+    padding: 0.5em;
+    margin: 0.5em 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #0077cc;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #005fa3;
+}
+
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: #333;
+    color: white;
+    margin-top: 2em;
+}
