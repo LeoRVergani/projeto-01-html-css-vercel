@@ -1,4 +1,4 @@
-```markdown
+```
 # Projeto de Petshop em HTML e CSS
 
 Este projeto é um site para um petshop, desenvolvido utilizando HTML e CSS. O objetivo é criar uma plataforma atraente e funcional para apresentar os serviços e produtos oferecidos, além de proporcionar uma experiência agradável aos visitantes.
@@ -19,12 +19,12 @@ Este projeto é um site para um petshop, desenvolvido utilizando HTML e CSS. O o
 
 1. Clone este repositório:
    ```
-   git clone https://github.com/seu-usuario/nome-do-repositorio.git
+   git clone https://github.com/LeoRVergani/projeto-01-html-css-vercel.git
    ```
 
 2. Navegue até o diretório do projeto:
    ```
-   cd nome-do-repositorio
+   cd projeto-01-html-css-vercel.git
    ```
 
 3. Abra o arquivo `index.html` em seu navegador para visualizar o site.
